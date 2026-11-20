@@ -743,6 +743,7 @@ impl CliArgs {
                     key_path: key_path.clone(),
                 }),
             atom_standalone_runtime,
+            atom_bridge_runtime: None,
         }
     }
 }
